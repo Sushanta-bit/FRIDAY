@@ -1,0 +1,58 @@
+
+.main{
+  height:100vh;
+  overflow: hidden;
+  display:flex;
+  align-items:center;
+  justify-content:flex-start;
+  flex-direction: column;
+  padding: 15px;
+  gap: 10px;
+}
+#firday{
+  width: auto;
+  height: 70%;
+  max-height: 70vh;
+  object-fit: contain;
+}
+span{
+  background: linear-gradient(to right,rgb(34, 221, 231),rgb(237, 4, 125));
+  font-size: 2vmax;
+  background-clip: text;
+  color:transparent;
+}
+button{
+  width: 180px;
+  height: 40px;
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  font-size: 20px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(71, 243, 255);
+  box-shadow: 2px 2px 70px  rgb(71, 243, 255);
+  cursor: pointer;
+}
+#speak{
+  width: 100px;
+}
+p{
+  font-size: 1.3vmax;
+  color:white;
+  text-align: center;
+  padding:0px 40px;
+}
+.response{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+#aivoice{
+  width: 50vh;
+  height: 60px;
+}
